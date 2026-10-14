@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>မင်းအတွက် 💗</title>
+<style>
+:root{--pink:#ff6fae;--deep:#6f315d;--cream:#fff7f3}
+*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Noto Sans Myanmar",sans-serif;background:linear-gradient(140deg,#24162e,#53304f 48%,#f09aaf);color:#fff;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:18px}
+.wrap{width:min(100%,520px)}
+.top{text-align:center;margin-bottom:14px;color:#ffe4ef}
+.top small{letter-spacing:2px}
+.card{background:rgba(255,249,248,.97);color:#42263f;border-radius:28px;overflow:hidden;box-shadow:0 22px 65px #120a1a80}
+.progress{height:5px;background:#f4dbe6}.bar{height:100%;width:0;background:var(--pink);transition:width .35s}
+.scene{height:260px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden;background:linear-gradient(155deg,#ffb6c8,#9a75ad 55%,#31274c)}
+.scene:before{content:"";position:absolute;width:300px;height:300px;border-radius:50%;background:#fff5d8;opacity:.75;top:-150px;right:-40px;filter:blur(2px)}
+.scene .emoji{font-size:88px;z-index:1;filter:drop-shadow(0 12px 14px #28102b55);animation:float 3s ease-in-out infinite}
+.scene .spark{position:absolute;font-size:25px;animation:float 3.5s ease-in-out infinite}
+.s1{left:12%;top:22%}.s2{right:13%;bottom:18%}.s3{left:20%;bottom:13%}
+@keyframes float{50%{transform:translateY(-9px) rotate(3deg)}}
+.content{padding:24px 23px 25px}
+.step{color:#ba6993;font-size:12px;font-weight:700;letter-spacing:1px}
+h1{font-size:24px;line-height:1.5;margin:8px 0 10px;color:#5b2e52}
+p{line-height:1.9;margin:0 0 18px;color:#75596e}
+.answers{display:grid;gap:10px}
+.answer{width:100%;border:1.5px solid #f0cddd;border-radius:16px;background:#fff;color:#5b3454;text-align:left;padding:13px 15px;font-size:15px;cursor:pointer;transition:.2s}
+.answer:hover{border-color:var(--pink);background:#fff0f6;transform:translateY(-1px)}
+.answer:focus{outline:3px solid #ffb2d0}
+.note{font-size:12px;color:#a47b98;margin-top:14px;text-align:center}
+.final{display:none;text-align:center}
+.final h2{color:#8e3e70;font-size:27px}
+.final p{white-space:pre-line}
+.namebox{width:100%;border:1.5px solid #efcddd;border-radius:13px;padding:12px;font:inherit;margin:0 0 12px}
+button.primary{border:0;border-radius:999px;padding:13px 24px;background:linear-gradient(90deg,#ff7cad,#e65b9a);color:white;font-weight:700;font-size:16px;cursor:pointer;box-shadow:0 8px 20px #e65b9a44}
+.foot{text-align:center;color:#ffe3f0;font-size:12px;margin-top:13px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><small>A LITTLE SURPRISE FOR YOU ♡</small></div>
+  <main class="card">
+    <div class="progress"><div class="bar" id="bar"></div></div>
+    <section id="quiz">
+      <div class="scene" id="scene">
+        <span class="spark s1">✦</span><span class="spark s2">♡</span><span class="spark s3">✧</span>
+        <div class="emoji" id="emoji">🌅</div>
+      </div>
+      <div class="content">
+        <div class="step" id="step">PAGE 1 OF 5</div>
+        <h1 id="heading">ဟေး… မင်းအတွက် စာမျက်နှာလေးတစ်ခု 💗</h1>
+        <p id="copy">ဒီစာမျက်နှာလေးကို ဆက်ဖတ်ဖို့ မေးခွန်းလေးတွေ ဖြေပေးနော်။ မှန်/မှား မရှိဘူး၊ မင်းစိတ်ထဲရှိတာကိုပဲ ရွေးပါ။</p>
+        <div class="answers" id="answers"></div>
+        <div class="note">မင်းရွေးတဲ့အဖြေပေါ်မူတည်ပြီး နောက်စာမျက်နှာလေး ပေါ်လာမယ် ♡</div>
+      </div>
+    </section>
+    <section class="content final" id="final">
+      <div class="scene" style="border-radius:20px;margin-bottom:22px;height:220px"><span class="spark s1">♡</span><span class="spark s2">✦</span><div class="emoji">💌</div></div>
+      <div class="step">THE LAST PAGE ♡</div>
+      <h2 id="finalTitle">တကယ်တော့… မင်းကို ပြောချင်တာရှိတယ်</h2>
+      <p id="finalText">မင်းနဲ့ စကားပြောရတဲ့အချိန်တွေက ကိုယ့်အတွက် ပျော်စရာလေးတွေ ဖြစ်လာတယ်။
+ကိုယ် မင်းကို သဘောကျနေမိပြီ။ မင်းဘက်ကလည်း အဲဒီလိုခံစားချက်ရှိမရှိ သိချင်လို့ ရိုးရိုးသားသား ဖွင့်ပြောတာပါ။
+
+ချက်ချင်းအဖြေပေးဖို့ မလိုပါဘူးနော်။ မင်းရဲ့ခံစားချက်ကိုလည်း ကိုယ်လေးစားပါတယ်။ 💗</p>
+      <button class="primary" onclick="restart()">အစကနေ ပြန်ကြည့်မယ် ♡</button>
+    </section>
+  </main>
+  <div class="foot">made with a little courage & a big heart</div>
+</div>
+<script>
+const pages=[
+ {emoji:"🌅",bg:"linear-gradient(155deg,#ffb6c8,#9a75ad 55%,#31274c)",title:"ဟေး… မင်းအတွက် စာမျက်နှာလေးတစ်ခု 💗",copy:"ဒီစာမျက်နှာလေးကို ဆက်ဖတ်ဖို့ မေးခွန်းလေးတွေ ဖြေပေးနော်။ မှန်/မှား မရှိဘူး၊ မင်းစိတ်ထဲရှိတာကိုပဲ ရွေးပါ။",q:"ဒီနေ့ မင်းရဲ့စိတ်အခြေအနေက ဘယ်လိုလဲ?",a:["😊 ပျော်နေတယ်","😌 အေးအေးဆေးဆေးပဲ","🥹 နည်းနည်းပင်ပန်းနေတယ်"]},
+ {emoji:"🌷",bg:"linear-gradient(155deg,#ffd6df,#e79ab9 55%,#80558b)",title:"ပန်းလေးတစ်ပွင့် မင်းအတွက် 🌷",copy:"တစ်ယောက်ယောက်က မင်းကို စိတ်ရင်းနဲ့ ဂရုစိုက်ပေးတာမျိုးဆို ဘယ်လိုခံစားရမလဲ?",q:"မင်းအကြိုက်ဆုံး ဂရုစိုက်ပုံက ဘယ်လိုမျိုးလဲ?",a:["💬 နေ့တိုင်း စကားပြောပေးတာ","🤍 လိုအပ်တဲ့အချိန် နားထောင်ပေးတာ","🌻 အသေးအဖွဲလေးတွေ မှတ်ထားပေးတာ"]},
+ {emoji:"🌙",bg:"linear-gradient(155deg,#a7b5e8,#7562a6 55%,#29284f)",title:"ညကောင်းကင်အောက်က မေးခွန်းလေး 🌙",copy:"အချစ်ဆိုတာ အလျင်လိုစရာမလိုဘူးလို့ ကိုယ်ထင်တယ်။ တစ်ယောက်ကိုတစ်ယောက် နားလည်ဖို့က ပိုအရေးကြီးတယ်။",q:"လူတစ်ယောက်ကို သဘောကျလာရင် မင်းအတွက် ဘာကအရေးကြီးဆုံးလဲ?",a:["🫶 ရိုးသားမှု","😂 အတူတူရယ်မောနိုင်မှု","🌱 နားလည်ပေးပြီး လေးစားမှု"]},
+ {emoji:"🧸",bg:"linear-gradient(155deg,#f8d8bd,#e9a7a9 55%,#9b668c)",title:"နွေးထွေးတဲ့ အမှတ်တရလေး 🧸",copy:"ကိုယ့်အတွက်တော့ လူတစ်ယောက်ကို သဘောကျတာဟာ သူ့ကို ပိုင်ဆိုင်ချင်တာထက် သူပျော်နေတာကို မြင်ချင်တာလည်း ပါတယ်။",q:"တစ်ယောက်ယောက်က မင်းကို သဘောကျနေတယ်လို့ ပြောလာရင်…",a:["💗 အချိန်ယူပြီး သိကျွမ်းကြည့်မယ်","😊 ကိုယ့်ခံစားချက်ကို ရိုးရိုးသားသားပြောမယ်","🌼 အရင်ဆုံး သူ့စိတ်ရင်းကို နားလည်ချင်မယ်"]},
+ {emoji:"💌",bg:"linear-gradient(155deg,#ffc5dc,#d58bc1 55%,#714b86)",title:"နောက်ဆုံးစာမျက်နှာနီးပြီ 💌",copy:"နောက်ဆုံးမေးခွန်းလေးပဲ။ မင်းအတွက် အထူးတစ်ယောက်က ပေးတဲ့စာလေးကို ဖတ်ရမယ်ဆိုရင်…",q:"စာလေးကို ဘယ်လိုပုံစံနဲ့ ဖတ်ချင်လဲ?",a:["🥹 ရိုးရိုးသားသားနဲ့ ရင်ထဲထိတာ","🌸 ချိုချိုသာသာနဲ့ ရိုမန်တစ်ဆန်တာ","😆 ချစ်စရာဟာသလေး ပါတာ"]}
+];
+let current=0, chosen=[];
+const $=id=>document.getElementById(id);
+function render(){
+ const p=pages[current]; $("emoji").textContent=p.emoji; $("scene").style.background=p.bg;
+ $("step").textContent=`PAGE ${current+1} OF ${pages.length}`;$("heading").textContent=p.title;$("copy").textContent=p.copy;
+ $("bar").style.width=(current/pages.length*100)+"%";
+ $("answers").innerHTML="";
+ const q=document.createElement("p");q.style.fontWeight="700";q.style.color="#613652";q.textContent=p.q;$("answers").appendChild(q);
+ p.a.forEach((answer,i)=>{const b=document.createElement("button");b.className="answer";b.textContent=answer;b.onclick=()=>{chosen[current]=i;current++;if(current<pages.length)render();else showFinal();};$("answers").appendChild(b)});
+}
+function showFinal(){$("quiz").style.display="none";$("final").style.display="block";$("bar").style.width="100%";}
+function restart(){current=0;chosen=[];$("quiz").style.display="block";$("final").style.display="none";render();}
+render();
+</script>
+</body>
+</html>
